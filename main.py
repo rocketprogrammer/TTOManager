@@ -15,7 +15,7 @@ params_data = requests.get("https://download.sunrise.games/parameters/parameters
 open(os.path.join(DEFAULT_INSTALL_DIR, "parameters.txt"), "w").write(params_data)
 print("Pointed launcher to Sunrise servers.")
 
-# Setup the wrokaround for connection hang
+# Setup the workaround for connection hang
 os.makedirs(os.path.join(DEFAULT_INSTALL_DIR, "hash_data"), exist_ok=True)
 print("Added workaround for connection freeze on modern versions of Windows.")
 
