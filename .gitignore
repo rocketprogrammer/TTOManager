@@ -1,0 +1,3 @@
+*.pyc
+main.build
+main.dist
