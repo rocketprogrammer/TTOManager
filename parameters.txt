@@ -1,2 +1,2 @@
 nuitka
-httpx
+requests
