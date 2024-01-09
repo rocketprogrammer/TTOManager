@@ -1,5 +1,5 @@
 @echo off
 cd ..
 py -m nuitka --onefile main.py
-move min.exe built
+move main.exe built
 pause
