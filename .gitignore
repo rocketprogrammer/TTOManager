@@ -1,3 +1,5 @@
 *.pyc
 main.build
 main.dist
+main.onefile-build
+built
